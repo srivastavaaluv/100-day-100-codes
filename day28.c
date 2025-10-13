@@ -37,5 +37,15 @@ Input 2:
 1 2 3 4 5
 Output 2:
 1 2 3 4 5*/
+    int n;
+    scanf("%d", &n); // Read number of elements
+    int arr[n];
+    // Read array elements
+    for(int i = 0; i < n; i++) {
+        scanf("%d", &arr[i]); }
+    // Print array elements
+    for(int i = 0; i < n; i++) {
+        printf("%d ", arr[i]);
+    }
     return 0;
 }
