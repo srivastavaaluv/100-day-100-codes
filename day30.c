@@ -28,7 +28,6 @@ else
 odd++;
 }
 printf("even=%d\n,odd=%d\n", even,odd);
-
     return 0;
 }
 //question2
